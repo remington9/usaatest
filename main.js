@@ -7,6 +7,8 @@ $(document).ready(function() {
         step: function() {
             //happens every count
             $('#counter').text(Math.floor(this.countNum));
+            $('#counter').css('color','#5affa8')
+            $('#counter').css('font-size', '3.4em')
         },
         complete: function() {
             //places last number otherwise stops at 1422
